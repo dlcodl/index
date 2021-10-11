@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeeChaeI Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="skip">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </div>
+    <div class="header2_barcode">
+        <div class="barcode">
+            <button>
+                <h2 data-text="leechaei">leechaei</h2>
+            </button>
+        </div>
+    </div>
+    <div class="gnb_btn">
+        <div class="btn_wrap">
+            <button type="button">
+                <span></span>
+            </button>
+        </div>
+    </div>
+    <div class="pc_menu">
+        <div>
+            <button type="button" class="section">
+                <a href="#header"><h2>home</h2></a>
+            </button>
+            <button type="button" class="section">
+                <a href="#profile"><h2>profile</h2></a>
+            </button>
+            <button type="button" class="section">
+                <a href="#project"><h2>project</h2></a>
+            </button>
+            <button type="button" class="section">
+                <a href="#animation"><h2>animaition</h2></a>
+            </button>
+            <button type="button" class="section">
+                <a href="#contact"><h2>contact</h2></a>
+            </button>
+        </div>
+    </div>
+    <div id="header">
+            <!-- <input type="button" onclick="alert('안녕하세요')"> -->
+            <div class="svg_wrap">
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/ 1999/xlink" viewBox="0 -50 500 600">
+                    <defs>
+                        <path id="text-circle-top" d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,    200s-89.5,20 200,200S50,360.5,50,250">
+                            <animateTransform attributeName="transform" begin="0s" dur="20s"    type="rotate" from="50 250 250" to="360 250 250" repeatCount="indefinite">
+                        </path>
+                        <path id="text-circle-bottom" d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200, 200s-89.5,200-200,200S50,360.5,50,250">
+                            <animateTransform attributeName="transform" begin="0s" dur="20s"    type="rotate" from="200 250 250" to="555 250 250" repeatCount="indefinite">
+                        </path>
+                    </defs>
+                    <image class="main-img" xlink:href="images/main1.jpg" x="80" y="70" width="370"height="350"></image>
+                    <text class="text" x="10" y="10" textLength="1257">
+                        <textPath class="text-top" xlink:href="#text-circle-top">
+                          web publisher
+                        </textPath>
+                        <textPath class="text-bottom" xlink:href="#text-circle-bottom">
+                            <tspan>lee chae i</tspan> portfolio
+                        </textPath>
+                    </text>
+                    <text class="left-text" x="-130" y="250">
+                        ui/ux web publisher ui/ux web publisher ui/ux web publisher ui/ux web publisher ui/ux web publisher 
+                    </text>
+                    <text class="right-text" x="440" y="250">
+                        leeminji portfolio website leeminji portfolio website
+                    </text>
+                </svg>
+            </div>
+            <!-- <div class="barcode_wrap">
+                <button>
+                    <h2 data-text="leeminji">leeminji</h2>
+                </button>
+            </div> -->
+    </div>
+    <div id="profile" class="porofile">
+        <div class="profile_wrap">
+            <div class="profile_img">
+                <div class="img_main">
+                    <div class="img_back"></div>
+                    <div class="img_back"></div>
+                    <div class="img_bg"></div>
+                </div>
+            </div>
+            <div class="profile_text">
+                <h2><span>who</span></h2>
+                <h2><span>am</span></h2>
+                <h2><span>i</span></h2>
+                <div class="profile_icon">
+                    <p>trevel</p>
+                    <p>coffee</p>
+                    <p>music</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project" class="project">
+        <div class="project_box">
+            <div class="maxim">
+                        <div class="maxim_wrap border">
+                            <div class="screenshot_box">
+                                <img class="screenshot" src="images/maxim_t.jpg" alt="maxim screen shot">
+                                <img class="screenshot" src="images/maxim_b.jpg" alt="maxim screen shot">
+                            </div>
+                            <h3 class="sitename">maxim</h3>
+                            <div class="site_box">
+                                <span class="site_num">01</span>
+                                <ul class="site_text">
+                                    <li>maxim</li>
+                                    <li>
+                                        <p>반응형 웹페이지 구현</p>
+                                        <p>배경 fixed를 활용해 스크롤을 올리고 내릴 때 입체감이 느껴지도록 활용</p>
+                                        <p>마우스 hover시의 변화를 활용</p>
+                                    </li>
+                                    <li class="site_color">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="github">github</a>
+                            <a href="maxim/resource/maxim.html" target="_blank" class="siteview">site view</a>
+                        </div>
+                        <div class="maxim_bg site_bg"></div>
+            </div>
+            <div class="feltcoffee">
+                        <div class="feltcoffee_wrap border">
+                            <div class="screenshot_box">
+                                <img class="screenshot" src="images/feltcoffee_t.jpg" alt="feltcoffee screen shot">
+                                <img class="screenshot" src="images/feltcoffee_b.jpg" alt="feltcoffee screen shot">
+                            </div>
+                            <h3 class="sitename">feltcoffee</h3>
+                            <div class="site_box">
+                                <span class="site_num">02</span>
+                                <ul class="site_text">
+                                    <li>feltcoffee</li>
+                                    <li>
+                                        <p>반응형 웹페이지 구현</p>
+                                        <p>flex 활용</p>
+                                        <p>배경 fixed를 활용해 스크롤을 올리고 내릴 때 입체감이 느껴지도록 활용</p>
+                                    </li>
+                                    <li class="site_color">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="github">github</a>
+                            <a href="FELT/resource/felt.html" target="_blank" class="siteview">site view</a>
+                        </div>
+                        <div class="feltcoffee_bg site_bg"></div>
+            </div>
+            <div class="pandora">
+                        <div class="pandora_wrap border">
+                            <div class="screenshot_box">
+                                <img class="screenshot" src="images/pandora_t.jpg" alt="pandora screen shot">
+                                <img class="screenshot" src="images/pandora_b.jpg" alt="pandora screen shot">
+                            </div>
+                            <h3 class="sitename">pandora</h3>
+                            <div class="site_box">
+                                <span class="site_num">03</span>
+                                <ul class="site_text">
+                                    <li>pandora</li>
+                                    <li>
+                                        <p>반응형 웹페이지 구현</p>
+                                        <p>스와이퍼 슬라이드 활용</p>
+                                        <p>비디오 태그 활용</p>
+                                    </li>
+                                    <li class="site_color">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="github">github</a>
+                            <a href="pandora/resource/pandora.html" target="_blank" class="siteview">site view</a>
+                        </div>
+                        <div class="pandora_bg site_bg"></div>
+            </div>
+            <div class="daejeon">
+                        <div class="daejeon_wrap border">
+                            <div class="screenshot_box">
+                                <img class="screenshot" src="images/daejeon_t.jpg" alt="pandora screen shot">
+                                <img class="screenshot" src="images/daejeon_b.jpg" alt="pandora screen shot">
+                            </div>
+                            <h3 class="sitename">daejeon</h3>
+                            <div class="site_box">
+                                <span class="site_num">04</span>
+                                <ul class="site_text">
+                                    <li>daejeon</li>
+                                    <li>
+                                        <p>반응형 웹페이지 구현</p>
+                                        <p>스와이퍼 슬라이드 활용</p>
+                                        <p>세부 내용이 많은 관계로 tab 메뉴와 button 메뉴를 활용</p>
+                                    </li>
+                                    <li class="site_color">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="github">github</a>
+                            <a href="Daejeon/resource/daejeon.html" target="_blank" class="siteview">site view</a>
+                        </div>
+                        <div class="daejeon_bg site_bg"></div>
+            </div>
+        </div>
+    </div>
+    <div id="animation" class="animation">
+            <ul class="ani_wrap">
+                <li>
+                    <button type="button" data-text="01 animation">01&nbsp;animation</button>
+                    <iframe src="animaition/animaition_1.html" frameborder="0"></iframe>
+                </li>
+                <li>
+                    <button type="button" data-text="02 animation">02&nbsp;animation</button>
+                    <iframe src="animaition/animaition_2.html" frameborder="0"></iframe>
+                </li>
+                <li>
+                    <button type="button" data-text="03 animation">03&nbsp;animation</button>
+                    <iframe src="animaition/animaition_3.html" frameborder="0"></iframe>
+                </li>
+                <li>
+                    <button type="button" data-text="04 animation">04&nbsp;animation</button>
+                    <iframe src="animaition/animaition_4.html" frameborder="0"></iframe>
+                </li>
+            </ul>
+    </div>
+    <div id="contact">
+        <div class="contact_wrap">
+            <form method="post" name="emailForm" action="https://formspree.io/f/xjvjvwqy">
+                <div class="contact">
+                    <div class="circle">
+                        <button type="button" class="button_a"><span></span></button>
+                        <button type="button" class="button_b"><span></span></button>
+                        <button type="button" class="button_c"><span></span></button>
+                    </div>
+                    <input type="text" placeholder="your name*" class="input_text">
+                    <input type="email" placeholder="your e-mail*">
+                    <textarea name="message" placeholder="message*"></textarea>
+                    <div class="form_back form_back_a"></div>
+                    <div class="form_back form_back_b"></div>
+                </div>
+                <div class="submit">
+                    <div class="tri_inner">
+                        <div class="tri_top">
+                            <div></div>
+                        </div>
+                        <div class="tri_right">
+                            <div></div>
+                        </div>
+                        <div class="tri_bottom">
+                            <div></div>
+                        </div>
+                        <div class="tri_left">
+                            <div></div>
+                        </div>
+                        <button type="submit" value="send">contact me</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css test3</title>
+    <style>
+        *, *::before, *::after {
+          box-sizing: border-box;
+        }
+        html, body {
+          height: 100%;
+        }
+        body {
+          display: grid;
+          align-items: center;
+          justify-items: center;
+          margin: 0;
+          background-color: #000;
+        }
+        div {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          box-shadow:
+            0 0 20px #fff,
+            -20px 0 80px #f0f,
+            20px 0 80px #0ff,
+            inset 0 0 50px #fff,
+            inset 50px 0 80px #f0f,
+            inset -50px 0 80px #0ff,
+            inset 50px 0 300px #f0f,
+            inset -50px 0 300px #0ff;
+          animation: pulsate 6s linear infinite;
+        }
+        @keyframes pulsate {
+          50% {
+            box-shadow:
+              0 0 20px #fff,
+              20px 0 80px #f0f,
+              -20px 0 80px #0ff,
+              inset 0 0 50px #fff,
+              inset -50px 0 80px #f0f,
+              inset 50px 0 80px #0ff,
+              inset -50px 0 300px #f0f,
+              inset 50px 0 300px #0ff;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
